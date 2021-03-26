@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:text="我是插件的第1个activity"
+        android:textColor="#000" />
+
+
+    <TextView
+        android:id="@+id/testView"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="@drawable/shape_gray_skip"
+        android:text="点击跳转"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>
